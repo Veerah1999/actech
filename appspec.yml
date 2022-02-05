@@ -15,8 +15,8 @@ hooks:
     - location: scripts/stop_server
       timeout: 300
       runas: root
-artifacts:
+  artifacts:
 files:
-    - '**/*'
-      name: s3-to-s3-latest-build.zip     
+  - '**/*'
+name: s3-to-s3-latest-build.zip     
 
