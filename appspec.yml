@@ -16,8 +16,7 @@ hooks:
       timeout: 300
       runas: root
 artifacts:
-  files:
-    - '**/*'
-  base-directory: base_dir
-  name: build-artifact-name
-  discard-paths: no
+files:
+- '**/*'
+name: s3-to-s3-latest-build.zip
+
